@@ -28,6 +28,8 @@ form {
     padding: 1rem;
     border-radius: 5px;
     gap: 1rem;
+    display: flex;
+    flex-direction: column;
     /* margin-bottom: 1rem; */
 }
 
@@ -35,9 +37,16 @@ h4 {
     border-bottom: 1px solid #4870f4;
 }
 
+
 input {
-    margin-bottom: 1rem;
-    display: flex;
-    flex-direction: column;
+    border: 0;
+    border: 1px solid;
+    border-radius: 5px;
+    
 }
 
+.text {
+    padding: 3rem 5rem;
+    color: white;
+    font-size: 40px;
+}
